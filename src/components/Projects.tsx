@@ -4,44 +4,65 @@ import { ExternalLink, Github, Code, Zap, Globe, Smartphone } from 'lucide-react
 const Projects: React.FC = () => {
   const projects = [
     {
+    title: "Ignivex Solutions",
+    description:
+      " Built the current platform for Ignivex Solutions. Ignivex  Solutions design, build, and scale modern software solutions  help  businesses grow, innovate, and compete globally. Since our founding,  we’ve been focused on transforming ideas into reliable digital products using cutting-edge technology.",
+    image: "/images/ignivex.png",
+          demo: 'https://ignivexsolutions.org/',
+
+      icon: Zap,
+            category: 'Web Development',
+      technologies: ['Vite', 'React', 'Node.js', 'Firebase'],
+
+
+  },
+    {
       title: 'Muna TV - Video Streaming Platform',
       description: 'Scalable Next.js + Mux powered video streaming service for educational content. Built with microservice architecture and CI/CD pipelines for high-availability deployments.',
-      image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg',
+      image: '/images/mtv.jpg',
       technologies: ['Next.js', 'Mux', 'React', 'Node.js', 'AWS'],
       category: 'Web Development',
       icon: Zap,
-      github: 'https://github.com/brightokyere',
       demo: 'https://tv.muna-world.org/'
     },
     {
       title: 'Muna App - Learning Platform',
       description: 'Rich media learning platform featuring animated content, eBooks, and audiobooks. Built with React and integrated with Cloudinary, AWS, and Firebase for content management.',
-      image: 'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg',
+      image: '/images/app.png',
       technologies: ['React', 'Firebase', 'Cloudinary', 'AWS', 'Prisma'],
       category: 'EdTech Platform',
       icon: Smartphone,
-      github: 'https://github.com/brightokyere',
       demo: 'https://app.muna-world.org/'
     },
     {
       title: 'Kabod Group Website Revamp',
       description: 'Led full-scale revamp of corporate website with modern responsive UI/UX, optimized performance, accessibility, and SEO structure using WordPress.',
-      image: 'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg',
+      image: '/images/kabod.png',
       technologies: ['WordPress', 'Responsive Design', 'SEO', 'Performance Optimization'],
       category: 'Web Development',
       icon: Globe,
-      github: 'https://github.com/brightokyere',
-      demo: '#'
+      demo: 'https://kabodgroup.com'
     },
+     {
+    title: "MUNA KALATI",
+    description:
+      "A creative publishing and media platform centered on storytelling, visual culture, and curated content. The project emphasized clean information architecture, expressive design systems, and flexibility to support evolving creative narratives.",
+    image: "/images/munakalati.svg",
+          icon: Globe,
+      technologies: ['WIX', 'Responsive Design', 'SEO', 'Performance Optimization'],
+
+      category: 'Web Development - WIX',
+
+    demo: "https://munakalati.org",
+  },
     {
       title: 'MyHealthCop Backend System',
       description: 'Developed complex backend services using Django and GraphQL, resulting in 35% increase in user engagement and 40% increase in revenue with comprehensive QA testing.',
-      image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg',
+      image: '/images/mhc.png',
       technologies: ['Django', 'Python', 'GraphQL', 'PostgreSQL', 'QA Testing'],
       category: 'Backend Development',
       icon: Code,
-      github: 'https://github.com/brightokyere',
-      demo: '#'
+      demo: 'https://myhealthcop.com/'
     }
   ];
 
@@ -58,7 +79,7 @@ const Projects: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -72,14 +93,7 @@ const Projects: React.FC = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute top-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2 bg-white/90 text-gray-900 rounded-full hover:bg-white transition-colors"
-                  >
-                    <Github className="h-4 w-4" />
-                  </a>
+                
                   <a
                     href={project.demo}
                     target="_blank"
@@ -122,7 +136,7 @@ const Projects: React.FC = () => {
 
         <div className="text-center mt-12">
           <a
-            href="https://github.com"
+            href="https://github.com/ob-star"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
