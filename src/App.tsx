@@ -36,7 +36,7 @@ function App() {
   <div className="rounded-xl border border-gray-200 bg-gray-50 p-4">
     <iframe
       src="/cv/resume.pdf"
-      className="w-full h-[900px] rounded-lg bg-white"
+      className="w-full h-[500px] sm:h-[900px] rounded-lg bg-white"
       loading="lazy"
     ></iframe>
   </div>
