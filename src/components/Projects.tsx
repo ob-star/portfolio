@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
     title: "MUNA KALATI",
     description:
       "A creative publishing and media platform centered on storytelling, visual culture, and curated content. The project emphasized clean information architecture, expressive design systems, and flexibility to support evolving creative narratives.",
-    image: "/images/munakalati.svg",
+    image: "/images/mk.png",
           icon: Globe,
       technologies: ['WIX', 'Responsive Design', 'SEO', 'Performance Optimization'],
 
@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
     {
       title: 'MyHealthCop Backend System',
       description: 'Developed complex backend services using Django and GraphQL, resulting in 35% increase in user engagement and 40% increase in revenue with comprehensive QA testing.',
-      image: '/images/mhc.png',
+      image: '/images/myhealthcop.png',
       technologies: ['Django', 'Python', 'GraphQL', 'PostgreSQL', 'QA Testing'],
       category: 'Backend Development',
       icon: Code,
@@ -67,13 +67,13 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="py-20 ">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
             Featured Projects
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             A showcase of innovative solutions and technical excellence across 
             various domains and technologies.
           </p>
@@ -89,7 +89,7 @@ const Projects: React.FC = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain group-hover:scale-105 transition-transform duration-300 items-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute top-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

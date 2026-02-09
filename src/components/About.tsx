@@ -3,13 +3,13 @@ import { Code2, Zap, Target } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-20 ">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-200 mb-6">
             About Me
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             I'm a Computer Engineering graduate from Ashesi University and MasterCard Foundation Scholar, 
             currently working as a Full Stack Engineer at Muna Kalati Ltd and Webmaster at Kabod Group. 
             I specialize in building scalable web applications, comprehensive QA testing, and delivering 
@@ -22,9 +22,9 @@ const About: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Code2 className="h-8 w-8 text-blue-600" />
-                <h3 className="text-2xl font-bold text-gray-900">Full-Stack Excellence</h3>
+                <h3 className="text-2xl font-bold text-gray-300">Full-Stack Excellence</h3>
               </div>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 Experienced in React, Next.js, Django, and Python with a track record of building 
                 enterprise platforms like Muna TV and Muna App. I architect scalable solutions 
                 using microservice architecture and CI/CD pipelines for high-availability deployments.
@@ -34,9 +34,9 @@ const About: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Target className="h-8 w-8 text-purple-600" />
-                <h3 className="text-2xl font-bold text-gray-900">Quality Assurance</h3>
+                <h3 className="text-2xl font-bold text-gray-300">Quality Assurance</h3>
               </div>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 Developed comprehensive test plans achieving 100% coverage of critical features, 
                 resulting in 30% reduction in defects and 25% increase in testing efficiency. 
                 Created automated test scripts increasing testing speed by 300%.
@@ -46,9 +46,9 @@ const About: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Zap className="h-8 w-8 text-teal-600" />
-                <h3 className="text-2xl font-bold text-gray-900">AI Innovation</h3>
+                <h3 className="text-2xl font-bold text-gray-300">AI Innovation</h3>
               </div>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 Currently researching machine learning and Internet of Things technologies. 
                 I integrate AI-powered features into web applications and develop intelligent 
                 solutions that enhance user experiences and business operations.

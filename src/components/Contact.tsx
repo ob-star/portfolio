@@ -37,6 +37,9 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+           <div>
+            <img src ='/images/contact.jpg' alt="Contact" className="w-full h-auto rounded-lg shadow-lg object-cover" />  
+          </div>
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
@@ -55,6 +58,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="text-white font-semibold">Email</h4>
                   <p className="text-gray-300">bright.okyere@ashesi.edu.gh</p>
+                                    <p className="text-gray-300">brightokyere.gcihs@gmail.com</p>
+
                 </div>
               </div>
 
@@ -109,9 +114,10 @@ const Contact: React.FC = () => {
               </div>
             </div>
           </div>
+         
 
           {/* Contact Form */}
-          <div className="bg-gray-800 rounded-xl p-8">
+          {/* <div className="bg-gray-800 rounded-xl p-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
@@ -186,7 +192,7 @@ const Contact: React.FC = () => {
                 <span>Send Message</span>
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

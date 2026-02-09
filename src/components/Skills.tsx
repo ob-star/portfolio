@@ -7,7 +7,7 @@ const Skills: React.FC = () => {
       icon: Globe,
       title: 'Website Building',
       description: 'Creating responsive, modern websites with cutting-edge technologies',
-      technologies: ['React', 'Next.js', 'Django', 'TypeScript', 'Tailwind CSS', 'Express.js'],
+      technologies: ['React', 'Next.js', 'Django', 'TypeScript', 'Tailwind CSS', 'Express.js', 'WordPress', 'Wix Platforms', ],
       color: 'from-blue-500 to-cyan-500'
     },
     {
@@ -27,38 +27,32 @@ const Skills: React.FC = () => {
     {
       icon: Smartphone,
       title: 'Mobile Development',
-      description: 'Cross-platform mobile applications with native performance',
-      technologies: ['React Native', 'Mobile UI/UX', 'Cross-platform', 'App Store Deployment', 'Firebase', 'Performance'],
+      description: 'Cross-platform mobile applications',
+      technologies: ['Flutter', 'Mobile UI/UX', 'Firebase', 'Performance'],
       color: 'from-orange-500 to-red-500'
     },
-    {
-      icon: Settings,
-      title: 'Web Management',
-      description: 'Full-stack web management and infrastructure optimization',
-            technologies: ['WordPress', 'Wix Platforms', 'Domain Management', 'SEO Optimization', 'AWS', 'PostgreSQL'],
-      color: 'from-teal-500 to-blue-500'
-    }
+  
   ];
 
 
   return (
-    <section id="skills" className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="skills" className="py-20">
+      <div className="max-wxl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-200 mb-6">
             Expertise & Skills
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max mx-auto">
             Leveraging a diverse tech stack to deliver comprehensive solutions 
             across multiple domains and platforms.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="group relative bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
+              className="group relative b rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 bg-gray-800"
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${skill.color} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}></div>
               
@@ -67,11 +61,11 @@ const Skills: React.FC = () => {
                   <skill.icon className="h-8 w-8" />
                 </div>
                 
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gray-800 transition-colors">
+                <h3 className="text-xl font-bold text-gray-200 mb-3 group-hover:text-blue-100 transition-colors">
                   {skill.title}
                 </h3>
                 
-                <p className="text-gray-600 mb-6 leading-relaxed">
+                <p className="text-gray-300 mb-6 leading-relaxed">
                   {skill.description}
                 </p>
                 

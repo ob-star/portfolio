@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-black via-black to-purple-900 flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Animation */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
@@ -42,14 +42,18 @@ const Hero: React.FC = () => {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
               <span className="block">Bright Okyere</span>
             </h1>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-blue-400 via-purple-500 to-teal-400 bg-clip-text text-transparent">
-              Full Stack Engineer & QA Specialist
-            </h2>
-            <p className="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Computer Engineering graduate from Ashesi University with expertise in React, Django, 
-              Next.js, and comprehensive QA testing. Currently building enterprise-grade platforms 
-              at Muna Kalati Ltd and leading web operations at Kabod Group.
-            </p>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-blue-400 via-purple-500 to-teal-400 bg-clip-text text-transparent">
+  Full Stack Engineer, QA Specialist & Web Solutions Consultant
+</h2>
+
+<p className="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+  Computer Engineering graduate from Ashesi University with hands-on expertise in React, Django, 
+  and Next.js, complemented by end-to-end QA testing. Experienced in delivering scalable, 
+  enterprise-grade platforms while also building high-conversion websites using WordPress 
+  and Wix. Currently driving product execution at Muna Kalati Ltd and leading web operations 
+  for Kabod Group.
+</p>
+
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
@@ -84,12 +88,7 @@ const Hero: React.FC = () => {
             >
               <Linkedin className="h-6 w-6" />
             </a>
-            <a
-              href="mailto:bright.okyere@ashesi.edu.gh"
-              className="text-gray-400 hover:text-white transition-colors duration-200 hover:scale-110 transform"
-            >
-              <Mail className="h-6 w-6" />
-            </a>
+            
           </div>
         </div>
 
