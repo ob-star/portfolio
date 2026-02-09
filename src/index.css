@@ -4,6 +4,6 @@
 bg-gradient-to-br from-black via-black to-purple-900
 html,body {
 
-background: linear-gradient(135deg, #3b3636, #201919, #6b21a8);
+background: linear-gradient(135deg, #0f0e0e, #201919, #6b21a8);
 text-color: #ffffff;
 }
