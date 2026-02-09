@@ -3,19 +3,7 @@ import { ExternalLink, Github, Code, Zap, Globe, Smartphone } from 'lucide-react
 
 const Projects: React.FC = () => {
   const projects = [
-    {
-    title: "Ignivex Solutions",
-    description:
-      " Built the current platform for Ignivex Solutions. Ignivex  Solutions design, build, and scale modern software solutions  help  businesses grow, innovate, and compete globally. Since our founding,  we’ve been focused on transforming ideas into reliable digital products using cutting-edge technology.",
-    image: "/images/ignivex.png",
-          demo: 'https://ignivexsolutions.org/',
-
-      icon: Zap,
-            category: 'Web Development',
-      technologies: ['Vite', 'React', 'Node.js', 'Firebase'],
-
-
-  },
+    
     {
       title: 'Muna TV - Video Streaming Platform',
       description: 'Scalable Next.js + Mux powered video streaming service for educational content. Built with microservice architecture and CI/CD pipelines for high-availability deployments.',
@@ -34,6 +22,19 @@ const Projects: React.FC = () => {
       icon: Smartphone,
       demo: 'https://app.muna-world.org/'
     },
+    {
+    title: "Ignivex Solutions",
+    description:
+      " Built the current platform for Ignivex Solutions. Ignivex  Solutions design, build, and scale modern software solutions  help  businesses grow, innovate, and compete globally. Since our founding,  we’ve been focused on transforming ideas into reliable digital products using cutting-edge technology.",
+    image: "/images/ignivex.png",
+          demo: 'https://ignivexsolutions.org/',
+
+      icon: Zap,
+            category: 'Web Development',
+      technologies: ['Vite', 'React', 'Node.js', 'Firebase'],
+
+
+  },
     {
       title: 'Kabod Group Website Revamp',
       description: 'Led full-scale revamp of corporate website with modern responsive UI/UX, optimized performance, accessibility, and SEO structure using WordPress.',
