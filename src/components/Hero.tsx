@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                 <img
-                  src="/public/images/brightpc.png"
+                  src="/images/brightpc.png"
                   alt="Bright Okyere - Full Stack Engineer"
                   className="w-full h-full object-cover"
                 />
