@@ -5,13 +5,13 @@ const Projects: React.FC = () => {
   const projects = [
     
     {
-      title: 'Muna TV - Video Streaming Platform',
+      title: 'MunaFlix - Video Streaming Platform',
       description: 'Scalable Next.js + Mux powered video streaming service for educational content. Built with microservice architecture and CI/CD pipelines for high-availability deployments.',
       image: '/images/mtv.jpg',
       technologies: ['Next.js', 'Mux', 'React', 'Node.js', 'AWS'],
       category: 'Web Development',
       icon: Zap,
-      demo: 'https://tv.muna-world.org/'
+      demo: 'https://munaflix.com/'
     },
     {
       title: 'Muna App - Learning Platform',
